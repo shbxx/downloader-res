@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Download a file
-      run: curl https://data.iana.org/TLD/tlds-alpha-by-domain.txt -o public
+      run: curl https://data.iana.org/TLD/tlds-alpha-by-domain.txt
 
     # - uses: suisei-cn/actions-download-file@v1
     #   id: downloadfile  # Remember to give an ID if you need the output
